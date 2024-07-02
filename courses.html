@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 4</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <!--Render All Elements Normally-->
+    <link rel="stylesheet" href="CSS/normalize.css"/>
+    <!--CSS File-->
+    <link rel = "stylesheet" href = "CSS/main.css">
+    <link rel = "stylesheet" href = "CSS/myFramework.css">
+</head>
+<body>
+  <!--Start Page-->
+    <div class="page d-flex">
+      <!--Start SideBar-->
+      <div class="sidebar">
+        <h3 class = "p-10 p-t-30 t-align p-relative fs-25">Elzero</h3>
+        <ul class = "links m-t-50">          
+            <li class = "m-10 rad-8">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10 b-600" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw m-r-10" ></i>
+              <span class = "b-600">Dashboard</span>
+            </a>
+          </li>
+          <li class = "m-10 rad-8">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10 margin-right b-600" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw m-r-10"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li class = "m-10 rad-8">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10 b-600" href="profile.html">
+              <i class="fa-regular fa-user fa-fw m-r-10"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li class = "m-10 rad-8">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10 b-600" href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw m-r-10"></i>
+              <span>Projects</span>
+            </a>
+          </li class = "m-10 rad-8">
+          <li class = "m-10 rad-8">
+            <a class="active d-flex align-center fs-14 c-black rad-6 p-10 b-600" href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw m-r-10"></i>
+              <span>Courses</span>
+            </a>
+          </li class = "m-10 rad-8">
+          <li class = "m-10 rad-8">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10 b-600" href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw m-r-10"></i>
+              <span>Friends</span>
+            </a>
+          </li class = "m-10 rad-8">
+          <li class = "m-10 rad-8">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10 b-600" href="files.html">
+              <i class="fa-regular fa-file fa-fw m-r-10"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li class = "m-10 rad-8">
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10 b-600" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw m-r-10"></i>
+              <span>Plans</span>
+            </a>
+          </li>    
+        </ul>
+    </div>
+        <!--End SideBar-->
+        <!--Start Content-->
+        <div class="content w-full">
+          <!--Start Header-->
+          <div class="header between-flex p-20">
+            <div class="search p-relative">
+              <input class= "p-10 rad-6 bor-ddd p-l-40 tran fs-14" type="search" placeholder="Type a Keyword">
+            </div>
+            <div class="icon-header d-flex">
+              <div class="noitfication d-flex align-center p-relative">
+                <i class="fa-regular fa-bell fa-lg fs-23"></i>
+              </div>
+              <div class="image">
+                <img class="align-center d-flex" decoding="async" src="images/avatar.png" alt="Not Found">
+              </div>
+            </div>
+          </div>
+          <!--End Header-->
+          <!--Start Courses-->
+          <div class="courses p-relative p-20">
+            <div class="main-title">
+              <h3>Courses</h3>
+              <div class="percent"></div>
+              <div class="profile-page"></div>
+          </div>
+          <div class="courses-content">
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-01.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Mastering Web Design</h4>
+                <p class = "c-gray p-b-15 fs-14">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 1150</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 210</div>
+              </div>
+              <img class = "avatar" src="images/team-01.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-02.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Data Structure And Algorithms</h4>
+                <p class = "c-gray p-b-15 fs-14">Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And Conquering</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 4033</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 3050</div>
+              </div>
+              <img class = "avatar" src="images/team-04.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-04.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Mastering Python</h4>
+                <p class = "c-gray p-b-15 fs-14">Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 2500</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 1000</div>
+              </div>
+              <img class = "avatar" src="images/team-03.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-03.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Responsive Web Design</h4>
+                <p class = "c-gray p-b-15 fs-14">Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 1555</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 270</div>
+              </div>
+              <img class = "avatar" src="images/team-02.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-05.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">PHP Examples</h4>
+                <p class = "c-gray p-b-15 fs-14">PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 800</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 1270</div>
+              </div>
+              <img class = "avatar" src="images/team-02.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-03.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Responsive Web Design</h4>
+                <p class = "c-gray p-b-15 fs-14">Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 1555</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 270</div>
+              </div>
+              <img class = "avatar" src="images/team-02.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-01.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Mastering Web Design</h4>
+                <p class = "c-gray p-b-15 fs-14">Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 1150</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 210</div>
+              </div>
+              <img class = "avatar" src="images/team-01.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-02.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Data Structure And Algorithms</h4>
+                <p class = "c-gray p-b-15 fs-14">Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And Conquering</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 4033</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 3050</div>
+              </div>
+              <img class = "avatar" src="images/team-04.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-05.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">PHP Examples</h4>
+                <p class = "c-gray p-b-15 fs-14">PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 800</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 1270</div>
+              </div>
+              <img class = "avatar" src="images/team-02.png" alt="">
+            </div>
+            <div class="box course rad-20 bg-white p-relative">
+              <img class = "main-img" src="images/course-04.jpg" alt="Not Found">
+              <div class="text-course p-15 ">
+                <h4 class = "p-b-t-15 b-600">Mastering Python</h4>
+                <p class = "c-gray p-b-15 fs-14">Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life</p>
+              </div>
+              <div class="box-bottom between-flex p-15 fs-12 c-gray p-relative">
+                <a href="#">Course Info</a>
+                <div><i class = "fa-regular fa-user"></i> 2500</div>
+                <div><i class = "fa-solid fa-dollar-sign"></i> 1000</div>
+              </div>
+              <img class = "avatar" src="images/team-03.png" alt="">
+            </div>
+          </div>
+          </div>
+          <!--End Courses-->
+    </div>
+    <!--End Page-->
+  </div>
+</body>
+</html>
